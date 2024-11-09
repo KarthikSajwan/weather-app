@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assests/cold.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.4s ease;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+body.warm {
+  background-image: url("./assests/hot.png");
+}
+
+.app {
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: rgb(154, 146, 146);
+}
+
+.search-box {
+  margin-bottom: 20px;
+  background: gray;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #333;
+}
+
+.location-box {
+  margin: 20px 0;
+}
+
+.location {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 300;
+  color: #eee;
+}
+
+.weather-box {
+  margin-top: 20px;
+}
+
+.temp {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffdd59;
+}
+
+.search-bar:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
